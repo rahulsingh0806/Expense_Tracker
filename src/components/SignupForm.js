@@ -56,8 +56,7 @@ const SignupForm = ({ setIsLoggedIn }) => {
     return (
         <div className="">
 
-            <form onSubmit={submitHandler} className="flex flex-col
-            ">
+            <form onSubmit={submitHandler} className="flex flex-col">
                 <div className="flex flex-row gap-x-8 w-full mt-4">
                     <label htmlFor="fName">
                         <p className='text-[1rem] text-black mb-1 leading-[1.375rem]'>First Name<sup className='text-yellow-200'>*</sup></p>
